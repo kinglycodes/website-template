@@ -1,0 +1,10 @@
+/* Buttons */
+.btn,
+.btn:active{
+  transition: all .5s ease;
+  cursor: pointer;
+  &:hover,
+  &:focus{
+      color: $secondColor;
+  }
+}

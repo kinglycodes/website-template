@@ -1,0 +1,97 @@
+/* Imports */
+/* Buttons */
+.btn,
+.btn:active {
+  transition: all .5s ease;
+  cursor: pointer;
+}
+
+.btn:hover, .btn:focus,
+.btn:active:hover,
+.btn:active:focus {
+  color: red;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  scroll-behavior: smooth;
+  color: #222;
+  background-color: white;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  /* max-width: 122.5rem; */
+}
+
+/* Headlines & Subheadlines sections */
+.headlines {
+  text-transform: uppercase;
+}
+
+.headline {
+  line-height: 2rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: .52rem;
+  margin-right: -.52rem;
+}
+
+.headline-sub {
+  font-size: 3.2rem;
+  font-weight: 700;
+  letter-spacing: .16rem;
+  margin-right: -.16rem;
+}
+
+.headline {
+  font-size: 3.2rem;
+  font-weight: 700;
+  letter-spacing: .16rem;
+  margin-right: -.16rem;
+  padding-bottom: 3.2rem;
+}
+
+/* Utilities */
+/* header */
+/* Sections */
+/* Footer */
+/* Media Querys */
+@media (max-width: 764px) {
+  /* Content */
+}
