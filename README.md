@@ -5,3 +5,4 @@ basic website-template for client work with
 html
 css
 sass
+js
