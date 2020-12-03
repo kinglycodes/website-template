@@ -1,11 +1,9 @@
-/* Imports */
-@import "config";
-@import "buttons";
-@import "main";
-@import "utilities";
+// Imports
+@import "./base/root";
+@import "./base/reset";
+@import "./base/global";
+@import "./base/utilities";
 // Components
 @import "./components/header";
 @import "./components/sections";
 @import "./components/footer";
-// Media-Queries
-@import "mobile";
